@@ -1,6 +1,5 @@
-var express = require('express');
-var app = express();
-
+const express = require('express');
+const app = express.Router();
 
 app.get("/", (req, res) => {
     res.send({
@@ -27,3 +26,5 @@ app.get("donates/", (req, res) => {});
 // app.get("/", (req, res) => {});
 // app.get("/", (req, res) => {});
 // app.get("/", (req, res) => {});
+
+module.exports = app;

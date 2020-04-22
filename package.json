@@ -1,0 +1,23 @@
+{
+  "name": "jeeran-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amin0x/jeeran-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amin0x/jeeran-web/issues"
+  },
+  "homepage": "https://github.com/Amin0x/jeeran-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
